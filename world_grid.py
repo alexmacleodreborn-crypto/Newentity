@@ -1,4 +1,3 @@
-```python
 # world_grid.py
 # A7DO Core: Pure spherical grid (voxel lattice)
 
@@ -32,4 +31,3 @@ if __name__ == "__main__":
 
     # Example: print first 10 points
     print(list(grid.points)[:10])
-```
