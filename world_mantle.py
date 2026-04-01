@@ -12,7 +12,8 @@ class Mantle:
             "composition": "silicon, oxygen, magnesium, iron, aluminum",
             "state": "solid (plastic flow)",
             "pressure": "1.3-135 GPa",
-            "thickness": "2900 km"
+            "thickness": "2900 km",
+            "temperature": self.temperature
         }
 
     def get_points(self, grid):

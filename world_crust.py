@@ -12,7 +12,8 @@ class Crust:
             "composition": "silicon, oxygen, aluminum, iron, calcium",
             "state": "solid",
             "pressure": "0-1.3 GPa",
-            "thickness": "5-70 km"
+            "thickness": "5-70 km",
+            "temperature": self.temperature
         }
 
     def get_points(self, grid):

@@ -10,7 +10,8 @@ class InnerCore:
             "density": "12.8-13.1 g/cm³",
             "composition": "iron (80-85%), nickel (5-10%), lighter elements",
             "state": "solid",
-            "pressure": "330-360 GPa"
+            "pressure": "330-360 GPa",
+            "temperature": self.temperature
         }
 
     def get_points(self, grid):
@@ -32,7 +33,8 @@ class OuterCore:
             "density": "9.9-12.2 g/cm³",
             "composition": "iron (80-90%), nickel, sulfur, oxygen",
             "state": "liquid",
-            "pressure": "135-330 GPa"
+            "pressure": "135-330 GPa",
+            "temperature": self.temperature
         }
 
     def get_points(self, grid):
